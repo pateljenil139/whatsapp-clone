@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Jenil Patel\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add styled-components
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Program Files\Git\cmd;C:\Users\Jenil Patel\AppData\Local\Microsoft\WindowsApps;C:\Users\Jenil Patel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jenil Patel\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Jenil Patel\Desktop\Whatsapp By Sonny sangha\whatsapp\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "whatsapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "13.4.19",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
